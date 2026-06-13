@@ -13,7 +13,7 @@ This video provides a complete walkthrough of the open-source flash editor tool 
 ## Watch the Video
 Click the image below to watch the step-by-step tutorial on YouTube:
 
-[![Watch the video tutorial](https://youtube.com)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
+[![Watch the video tutorial](https://www.youtube.com/watch?v=DHF3Maqpc1o)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
 
 ## Video Highlights & Core Features Covered
 * **Initial Setup**: How to organize and load your raw `.bin` or `.oi` files into the `original` folder directory.
