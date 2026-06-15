@@ -57,6 +57,15 @@ DIST_ROOT="$SCRIPT_DIR/dist"
 PUBLISH_ROOT="$SCRIPT_DIR/publish"
 TMP_ROOT="$SCRIPT_DIR/tmp"
 
+TARGETS=(
+  "macos-arm64|osx-arm64|zip|Modern M Series Macs|macOS arm64 zip"
+  "macos-x64|osx-x64|zip|Older Legacy Macs|macOS x64 zip"
+  "linux-x64|linux-x64|tar.gz|Most Common Linux|Linux x64 tar.gz"
+  "linux-arm64|linux-arm64|tar.gz|ARM Linux|Linux arm64 tar.gz"
+  "windows-x64|win-x64|zip|Most Common Windows|Windows x64 zip"
+  "windows-arm64|win-arm64|zip|ARM Windows|Windows arm64 zip"
+)
+
 log() {
   printf '[build] %s\n' "$*"
 }
@@ -97,6 +106,46 @@ log "Version: $VERSION_RAW"
 log "Commit: $COMMIT_SHA"
 log "Configuration: $CONFIGURATION"
 log "Framework: $FRAMEWORK"
+
+update_readme_downloads() {
+  local readme_path="$1"
+  python3 - "$readme_path" "$VERSION_SAFE" "${TARGETS[@]}" <<'PY'
+import pathlib
+import sys
+
+readme_path = pathlib.Path(sys.argv[1])
+version_safe = sys.argv[2]
+raw_targets = sys.argv[3:]
+
+targets = []
+for item in raw_targets:
+    label, rid, archive_ext, display_label, link_label = item.split('|')
+    targets.append((label, rid, archive_ext, display_label, link_label))
+
+text = readme_path.read_text(encoding='utf-8')
+start_marker = '## Downloads\n'
+end_marker = '\nThe tool never edits the original file in place.'
+start = text.find(start_marker)
+if start == -1:
+    raise SystemExit('Could not find README Downloads section.')
+start += len(start_marker)
+end = text.find(end_marker, start)
+if end == -1:
+    raise SystemExit('Could not find README Downloads section terminator.')
+
+replacement_lines = ['']
+for label, _rid, archive_ext, display_label, link_label in targets:
+    archive_name = f'ALHFlashTool-{version_safe}-{label}.{archive_ext}'
+    replacement_lines.append(f'- {display_label} [{link_label}](build/dist/{archive_name})')
+
+replacement = '\n'.join(replacement_lines) + '\n'
+updated = text[:start] + replacement + text[end:]
+if updated != text:
+    readme_path.write_text(updated, encoding='utf-8')
+PY
+}
+
+update_readme_downloads "$README_FILE"
 
 if [[ "$RUN_TESTS" -eq 1 ]]; then
   log "Running tests"
@@ -207,17 +256,8 @@ PY
 
 : > "$TMP_ROOT/release-artifacts.tsv"
 
-TARGETS=(
-  "macos-arm64|osx-arm64|zip"
-  "macos-x64|osx-x64|zip"
-  "linux-x64|linux-x64|tar.gz"
-  "linux-arm64|linux-arm64|tar.gz"
-  "windows-x64|win-x64|zip"
-  "windows-arm64|win-arm64|zip"
-)
-
 for target in "${TARGETS[@]}"; do
-  IFS='|' read -r label rid archive_ext <<< "$target"
+  IFS='|' read -r label rid archive_ext _display_label _link_label <<< "$target"
   publish_target "$label" "$rid" "$archive_ext"
 done
 

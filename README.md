@@ -23,12 +23,12 @@ Click the image below to watch the step-by-step tutorial on YouTube:
 
 ## Downloads
 
-- Modern ARM Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.1-macos-arm64.zip)
-- Older Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.1-macos-x64.zip)
-- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.1-linux-x64.tar.gz)
-- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.1-linux-arm64.tar.gz)
-- Most Common Windows  [Windows x64 zip](build/dist/ALHFlashTool-0.0.1-windows-x64.zip)
-- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.1-windows-arm64.zip)
+- Modern M Series Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.2-macos-arm64.zip)
+- Older Legacy Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.2-macos-x64.zip)
+- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.2-linux-x64.tar.gz)
+- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.2-linux-arm64.tar.gz)
+- Most Common Windows [Windows x64 zip](build/dist/ALHFlashTool-0.0.2-windows-x64.zip)
+- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.2-windows-arm64.zip)
 
 The tool never edits the original file in place. DTC editing is blocked when
 flash validation fails, and patched binaries are written only after checksum
