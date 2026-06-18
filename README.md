@@ -1,4 +1,4 @@
-# ALH Flash Tool
+# ALH Flash Editor Tool
 
 .NET 7 console tool for inspecting raw ALH EDC15V/EDC15VM flash binaries,
 discovering possible DTC codes, finding DTC candidates, applying
@@ -13,7 +13,13 @@ This video provides a complete walkthrough of the open-source flash editor tool 
 ## Watch the Video
 Click the image below to watch the step-by-step tutorial on YouTube:
 
-[![Watch the video tutorial](https://www.youtube.com/watch?v=DHF3Maqpc1o)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
+## Watch the Video
+
+![Diff report example](build/assets/diffreport.png)
+
+[![Watch the video tutorial](build/assets/menu.png)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
+
+
 
 ## Video Highlights & Core Features Covered
 * **Initial Setup**: How to organize and load your raw `.bin` or `.oi` files into the `original` folder directory.
