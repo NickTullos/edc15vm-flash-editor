@@ -1,0 +1,4836 @@
+﻿<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VEpump Compatibility Report</title>
+<style>
+body{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f7f7f4;color:#1f1f1f;margin:0;padding:24px;}
+h1,h2,h3{margin:0 0 12px;} .card{background:#fff;border:1px solid #ddd;border-radius:12px;padding:16px;margin:0 0 16px;box-shadow:0 1px 2px rgba(0,0,0,.04);} table{width:100%;border-collapse:collapse;} th,td{border-bottom:1px solid #e5e5e5;padding:8px 10px;text-align:left;vertical-align:top;} th{background:#fafafa;position:sticky;top:0;}
+.status-ready{color:#0a7a2f;font-weight:700;} .status-reviewonly,.status-warn{color:#9a6400;font-weight:700;} .status-missing,.status-fail,.status-error{color:#b42318;font-weight:700;} .muted{color:#666;} details>summary{cursor:pointer;font-weight:600;}
+</style></head><body>
+<h1>VEpump Compatibility Report</h1>
+<p class="muted">Generated 2026-06-18 14:15:47 UTC</p>
+<div class="card">
+<h2>Summary</h2>
+<p><strong>Root:</strong> /Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump</p>
+<p><strong>Pressure display:</strong> gauge PSI</p>
+<p><strong>Files scanned:</strong> 22</p>
+</div>
+<details class="card" open>
+<summary>AFH/2000 VW 1.9 TDI AFH 0281010112 038906012L.bin <span class="muted">(Pass, ReviewOnly)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>2000 VW 1.9 TDI AFH 0281010112 038906012L.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>AFH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2812</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>ReviewOnly</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>5. EGR Off (Off-road only), 6. MAF Off / Switch to MAP (Off-road only), 16. View Driver&amp;#39;s Wish Table, 17. Edit Driver&amp;#39;s Wish Table, 18. View Inverse Driver&amp;#39;s Wish Table, 19. Edit Inverse Driver&amp;#39;s Wish Table, 35. View Pump Voltage Table, 36. Edit Pump Voltage Table, 37. View Smoke Limiter Table, 38. Edit Smoke Limiter Table, 40. View Low RPM Torque Limiter Table, 41. Edit Low RPM Torque Limiter Table</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-reviewonly">ReviewOnly</td>
+<td>No</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-reviewonly">ReviewOnly</td>
+<td>No</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>AGR/VW bora 1.9TDI AGR 90HP 038906012FD 0281010653 362774.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW bora 1.9TDI AGR 90HP 038906012FD 0281010653 362774.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>AGR</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW Beetle 1.9TDI 5spd ALH 90HP 038906012GQ 0281011035 366235.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW Beetle 1.9TDI 5spd ALH 90HP 038906012GQ 0281011035 366235.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4307</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW beetle 1.9TDI ALH 90HP 038906012FH 0281010657 362437.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW beetle 1.9TDI ALH 90HP 038906012FH 0281010657 362437.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG3537</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG3537</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW beetle 1.9TDI ALH 90HP 038906012Q 0281010133 352571.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW beetle 1.9TDI ALH 90HP 038906012Q 0281010133 352571.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2818</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2818</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW golf 1.9TDI ALH 90HP 0281001979 038906012M 352564.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW golf 1.9TDI ALH 90HP 0281001979 038906012M 352564.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2528</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2528</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>30. View SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>31. Edit SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW golf 1.9TDI ALH 90HP 038906012CP 0281010385 354327.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW golf 1.9TDI ALH 90HP 038906012CP 0281010385 354327.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2839</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2839</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW golf 1.9TDI ALH 90HP 038906012GK 0281010864 362681.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW golf 1.9TDI ALH 90HP 038906012GK 0281010864 362681.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SGKD34</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SGKD34</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW Golf IV ALH 90hp 038906012FA 0281010650 360773.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW Golf IV ALH 90hp 038906012FA 0281010650 360773.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG3</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG3</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW Golf4 1.9 TDI 90hp ALH 0281001979 038906012M 2813.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW Golf4 1.9 TDI 90hp ALH 0281001979 038906012M 2813.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2528</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2528</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>30. View SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>31. Edit SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW golf4 ALH 90HP 038906012M 0281001979 352564.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW golf4 ALH 90HP 038906012M 0281001979 352564.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2813</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2813</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW GolfJetta 1.9TDI ALH 90HP 038906012GN 0281011034 366234 - Lazlo_new_stock.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW GolfJetta 1.9TDI ALH 90HP 038906012GN 0281011034 366234 - Lazlo_new_stock.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4308</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>ALH/VW_golf_1.9TDI_ALH_90HP_038906012CP_0281010385_354327 - STOCK.BIN <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW_golf_1.9TDI_ALH_90HP_038906012CP_0281010385_354327 - STOCK.BIN</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>ALH</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2839</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2839</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102 copy.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>03 golf part number bosch 0281010653 software id.bin038906012FD SG4102 copy.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>03 golf part number bosch 0281010653 software id.bin038906012FD SG4102.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4102</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card" open>
+<summary>unknowns/0380906012A SG 2801 110hp AHF.ori <span class="muted">(Pass, ReviewOnly)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>0380906012A SG 2801 110hp AHF.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2801</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2801</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>ReviewOnly</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>16. View Driver&amp;#39;s Wish Table, 17. Edit Driver&amp;#39;s Wish Table, 35. View Pump Voltage Table, 36. Edit Pump Voltage Table</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-missing">Missing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/1166 0315 038 906 012 GN ECU stock read 02-05-08.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>1166 0315 038 906 012 GN ECU stock read 02-05-08.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4308</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/alh-stock alh stock jetta 03  part number bosch 0281011034 software id 038906012GN SG4308.bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>alh-stock alh stock jetta 03  part number bosch 0281011034 software id 038906012GN SG4308.bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4308</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/BEETLE ALH 2.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>BEETLE ALH 2.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2511</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2511</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>30. View SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>31. Edit SOI Limiter By Coolant Temp</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/BEETLE ALH STOCK.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>BEETLE ALH STOCK.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2818</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2818</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/Leon alh ori .bin <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>Leon alh ori .bin</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>SG2806</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG2806</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+<details class="card">
+<summary>unknowns/VW Beetle 1.9TDI auto 038906012FF 0281001655 362776.ori <span class="muted">(Pass, Ready)</span></summary>
+<div style="margin-top:12px;">
+<table>
+<tbody>
+<tr>
+<th style="width:240px;">File</th>
+<td>VW Beetle 1.9TDI auto 038906012FF 0281001655 362776.ori</td>
+</tr>
+<tr>
+<th style="width:240px;">Engine</th>
+<td>unknowns</td>
+</tr>
+<tr>
+<th style="width:240px;">Variant</th>
+<td>Unknown</td>
+</tr>
+<tr>
+<th style="width:240px;">Software number</th>
+<td>SG4104</td>
+</tr>
+<tr>
+<th style="width:240px;">Validation</th>
+<td>Pass</td>
+</tr>
+<tr>
+<th style="width:240px;">Compatibility</th>
+<td>Ready</td>
+</tr>
+<tr>
+<th style="width:240px;">Size</th>
+<td>524,288 bytes</td>
+</tr>
+<tr>
+<th style="width:240px;">Incompatible</th>
+<td>None</td>
+</tr>
+</tbody></table>
+<h3>Feature Statuses</h3>
+<table>
+<thead><tr><th>Feature</th><th>Status</th><th>Compatible</th></tr></thead>
+<tbody>
+<tr>
+<td>4. Disable DTC</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>5. EGR Off (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>6. MAF Off / Switch to MAP (Off-road only)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>7. Repair Checksums</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>8. Discover DTC Codes</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>9. Find DTC Status</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>10. Investigate Clustered DTC Tables</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>11. Review Flash Modifications</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>12. Generate Map Chart Report (HTML)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>13. Review Boost Maps</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>14. View Boost Target Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>15. Edit Boost Target (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>16. View Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>17. Edit Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>18. View Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>19. Edit Inverse Driver&#39;s Wish Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>20. View N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>21. Edit N75 Duty Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>22. View Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>23. Edit Boost Limiter Table (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>24. View Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>25. Edit Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>26. View SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>27. Edit SOI Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>28. View SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>29. Edit SOI Selector Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>32. View MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>33. Edit MAP Linearization Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>34. View Single Value Boost Limit (gauge PSI)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>35. View Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>36. Edit Pump Voltage Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>37. View Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>38. Edit Smoke Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>39. Detect Active Codeblock (Advisory)</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>40. View Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>41. Edit Low RPM Torque Limiter Table</td>
+<td class="status-ready">Ready</td>
+<td>Yes</td>
+</tr>
+</tbody></table>
+</div></details>
+</body></html>

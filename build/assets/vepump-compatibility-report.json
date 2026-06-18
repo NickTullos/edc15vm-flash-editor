@@ -1,0 +1,4997 @@
+﻿{
+  "timestamp": "2026-06-18T14:15:47.5518+00:00",
+  "rootPath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump",
+  "pressureUnitDisplayName": "gauge PSI",
+  "files": [
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AFH/2000 VW 1.9 TDI AFH 0281010112 038906012L.bin",
+      "sourceRelativePath": "AFH/2000 VW 1.9 TDI AFH 0281010112 038906012L.bin",
+      "sourceFileName": "2000 VW 1.9 TDI AFH 0281010112 038906012L.bin",
+      "engineFolder": "AFH",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG2812",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "ReviewOnly",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "fe4f284540bb334c8dcdcf3816bd2cbe1f661ee3ed7f071a2b01712dc7108cda",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        }
+      ],
+      "incompatibleFeatures": [
+        "5. EGR Off (Off-road only)",
+        "6. MAF Off / Switch to MAP (Off-road only)",
+        "16. View Driver\u0027s Wish Table",
+        "17. Edit Driver\u0027s Wish Table",
+        "18. View Inverse Driver\u0027s Wish Table",
+        "19. Edit Inverse Driver\u0027s Wish Table",
+        "35. View Pump Voltage Table",
+        "36. Edit Pump Voltage Table",
+        "37. View Smoke Limiter Table",
+        "38. Edit Smoke Limiter Table",
+        "40. View Low RPM Torque Limiter Table",
+        "41. Edit Low RPM Torque Limiter Table"
+      ]
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AGR/VW bora 1.9TDI AGR 90HP 038906012FD 0281010653 362774.ori",
+      "sourceRelativePath": "AGR/VW bora 1.9TDI AGR 90HP 038906012FD 0281010653 362774.ori",
+      "sourceFileName": "VW bora 1.9TDI AGR 90HP 038906012FD 0281010653 362774.ori",
+      "engineFolder": "AGR",
+      "resolvedVariant": "SG4102",
+      "softwareNumber": "SG4102",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "a7990b5dc1a9161ab2d3b5a021a48f0fcfcd49046eebf302e667f3cbb7a6a17d",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW Beetle 1.9TDI 5spd ALH 90HP 038906012GQ 0281011035 366235.ori",
+      "sourceRelativePath": "ALH/VW Beetle 1.9TDI 5spd ALH 90HP 038906012GQ 0281011035 366235.ori",
+      "sourceFileName": "VW Beetle 1.9TDI 5spd ALH 90HP 038906012GQ 0281011035 366235.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4307",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "8f0969ce89dce9ba4b883ff5a12840928915e3a71b156a452b7458d5422f93a1",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW beetle 1.9TDI ALH 90HP 038906012FH 0281010657 362437.ori",
+      "sourceRelativePath": "ALH/VW beetle 1.9TDI ALH 90HP 038906012FH 0281010657 362437.ori",
+      "sourceFileName": "VW beetle 1.9TDI ALH 90HP 038906012FH 0281010657 362437.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG3537",
+      "softwareNumber": "SG3537",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "3fd6248094cadf348c895d99933d238c23d997162f6594f67afbd9b69261ea52",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW beetle 1.9TDI ALH 90HP 038906012Q 0281010133 352571.ori",
+      "sourceRelativePath": "ALH/VW beetle 1.9TDI ALH 90HP 038906012Q 0281010133 352571.ori",
+      "sourceFileName": "VW beetle 1.9TDI ALH 90HP 038906012Q 0281010133 352571.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2818",
+      "softwareNumber": "SG2818",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "09d0ddaf0f132639d3a9f590152981c57826c4c2f6295840d6a99925a891c6a5",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW golf 1.9TDI ALH 90HP 0281001979 038906012M 352564.ori",
+      "sourceRelativePath": "ALH/VW golf 1.9TDI ALH 90HP 0281001979 038906012M 352564.ori",
+      "sourceFileName": "VW golf 1.9TDI ALH 90HP 0281001979 038906012M 352564.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2528",
+      "softwareNumber": "SG2528",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "494d1f983e3c2c2386099fecd96f9940049bf22bfb759f8efc2191690ceec1ce",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiLimiterByTempTables",
+          "label": "30. View SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiLimiterByTemp",
+          "label": "31. Edit SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW golf 1.9TDI ALH 90HP 038906012CP 0281010385 354327.ori",
+      "sourceRelativePath": "ALH/VW golf 1.9TDI ALH 90HP 038906012CP 0281010385 354327.ori",
+      "sourceFileName": "VW golf 1.9TDI ALH 90HP 038906012CP 0281010385 354327.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2839",
+      "softwareNumber": "SG2839",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "bc90eeb7f7c92b67f13f5464c824618c8ca2c76756540cc6fd69f2b231f83b61",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW golf 1.9TDI ALH 90HP 038906012GK 0281010864 362681.ori",
+      "sourceRelativePath": "ALH/VW golf 1.9TDI ALH 90HP 038906012GK 0281010864 362681.ori",
+      "sourceFileName": "VW golf 1.9TDI ALH 90HP 038906012GK 0281010864 362681.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SGKD34",
+      "softwareNumber": "SGKD34",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "499d0831dd0743d1bce4767488ba3e58910f507d0b843ad32178562580b02f85",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW Golf IV ALH 90hp 038906012FA 0281010650 360773.bin",
+      "sourceRelativePath": "ALH/VW Golf IV ALH 90hp 038906012FA 0281010650 360773.bin",
+      "sourceFileName": "VW Golf IV ALH 90hp 038906012FA 0281010650 360773.bin",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG3",
+      "softwareNumber": "SG3",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "8010abdf83f41456ee99fe4572b6048f1889bae817e1eb3cd64c46f207d915eb",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW Golf4 1.9 TDI 90hp ALH 0281001979 038906012M 2813.bin",
+      "sourceRelativePath": "ALH/VW Golf4 1.9 TDI 90hp ALH 0281001979 038906012M 2813.bin",
+      "sourceFileName": "VW Golf4 1.9 TDI 90hp ALH 0281001979 038906012M 2813.bin",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2528",
+      "softwareNumber": "SG2528",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "494d1f983e3c2c2386099fecd96f9940049bf22bfb759f8efc2191690ceec1ce",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiLimiterByTempTables",
+          "label": "30. View SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiLimiterByTemp",
+          "label": "31. Edit SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW golf4 ALH 90HP 038906012M 0281001979 352564.ori",
+      "sourceRelativePath": "ALH/VW golf4 ALH 90HP 038906012M 0281001979 352564.ori",
+      "sourceFileName": "VW golf4 ALH 90HP 038906012M 0281001979 352564.ori",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2813",
+      "softwareNumber": "SG2813",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "fbc3a6ff3082ec2c8710f9e09fb5160b428b698647ec24ede7c5708c0ef75794",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW GolfJetta 1.9TDI ALH 90HP 038906012GN 0281011034 366234 - Lazlo_new_stock.bin",
+      "sourceRelativePath": "ALH/VW GolfJetta 1.9TDI ALH 90HP 038906012GN 0281011034 366234 - Lazlo_new_stock.bin",
+      "sourceFileName": "VW GolfJetta 1.9TDI ALH 90HP 038906012GN 0281011034 366234 - Lazlo_new_stock.bin",
+      "engineFolder": "ALH",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4308",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "d7b4f0a6a2163a7b3330e1a42a59ad3e296b9c4152b25dee72f0ccbe80df9d6e",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/ALH/VW_golf_1.9TDI_ALH_90HP_038906012CP_0281010385_354327 - STOCK.BIN",
+      "sourceRelativePath": "ALH/VW_golf_1.9TDI_ALH_90HP_038906012CP_0281010385_354327 - STOCK.BIN",
+      "sourceFileName": "VW_golf_1.9TDI_ALH_90HP_038906012CP_0281010385_354327 - STOCK.BIN",
+      "engineFolder": "ALH",
+      "resolvedVariant": "SG2839",
+      "softwareNumber": "SG2839",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "bc90eeb7f7c92b67f13f5464c824618c8ca2c76756540cc6fd69f2b231f83b61",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102 copy.bin",
+      "sourceRelativePath": "unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102 copy.bin",
+      "sourceFileName": "03 golf part number bosch 0281010653 software id.bin038906012FD SG4102 copy.bin",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG4102",
+      "softwareNumber": "SG4102",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "a7990b5dc1a9161ab2d3b5a021a48f0fcfcd49046eebf302e667f3cbb7a6a17d",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102.bin",
+      "sourceRelativePath": "unknowns/03 golf part number bosch 0281010653 software id.bin038906012FD SG4102.bin",
+      "sourceFileName": "03 golf part number bosch 0281010653 software id.bin038906012FD SG4102.bin",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG4102",
+      "softwareNumber": "SG4102",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "a7990b5dc1a9161ab2d3b5a021a48f0fcfcd49046eebf302e667f3cbb7a6a17d",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/0380906012A SG 2801 110hp AHF.ori",
+      "sourceRelativePath": "unknowns/0380906012A SG 2801 110hp AHF.ori",
+      "sourceFileName": "0380906012A SG 2801 110hp AHF.ori",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG2801",
+      "softwareNumber": "SG2801",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "ReviewOnly",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "a38abed378468c14a9571d7fd1bcabd0ca4a351a38775922bdfb6c74f78c0b93",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": [
+        "16. View Driver\u0027s Wish Table",
+        "17. Edit Driver\u0027s Wish Table",
+        "35. View Pump Voltage Table",
+        "36. Edit Pump Voltage Table"
+      ]
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/1166 0315 038 906 012 GN ECU stock read 02-05-08.bin",
+      "sourceRelativePath": "unknowns/1166 0315 038 906 012 GN ECU stock read 02-05-08.bin",
+      "sourceFileName": "1166 0315 038 906 012 GN ECU stock read 02-05-08.bin",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4308",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "d7b4f0a6a2163a7b3330e1a42a59ad3e296b9c4152b25dee72f0ccbe80df9d6e",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/alh-stock alh stock jetta 03  part number bosch 0281011034 software id 038906012GN SG4308.bin",
+      "sourceRelativePath": "unknowns/alh-stock alh stock jetta 03  part number bosch 0281011034 software id 038906012GN SG4308.bin",
+      "sourceFileName": "alh-stock alh stock jetta 03  part number bosch 0281011034 software id 038906012GN SG4308.bin",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4308",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "03a07a75e75dc1a4d0aa7ef41468124a611ca4e9ad28732071fd74a02c23ef9c",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/BEETLE ALH 2.ori",
+      "sourceRelativePath": "unknowns/BEETLE ALH 2.ori",
+      "sourceFileName": "BEETLE ALH 2.ori",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG2511",
+      "softwareNumber": "SG2511",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "92dfd19d9334517191feaa9f6bba35ab4f093502aef64dcfc9ad1da89735c93e",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiLimiterByTempTables",
+          "label": "30. View SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiLimiterByTemp",
+          "label": "31. Edit SOI Limiter By Coolant Temp",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/BEETLE ALH STOCK.ori",
+      "sourceRelativePath": "unknowns/BEETLE ALH STOCK.ori",
+      "sourceFileName": "BEETLE ALH STOCK.ori",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG2818",
+      "softwareNumber": "SG2818",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "09d0ddaf0f132639d3a9f590152981c57826c4c2f6295840d6a99925a891c6a5",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/Leon alh ori .bin",
+      "sourceRelativePath": "unknowns/Leon alh ori .bin",
+      "sourceFileName": "Leon alh ori .bin",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "SG2806",
+      "softwareNumber": "SG2806",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "475aa35b3b08f1311c1d10ac60b156b01508ecdd4ab71bc8653e7640f03c268f",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/unknowns/VW Beetle 1.9TDI auto 038906012FF 0281001655 362776.ori",
+      "sourceRelativePath": "unknowns/VW Beetle 1.9TDI auto 038906012FF 0281001655 362776.ori",
+      "sourceFileName": "VW Beetle 1.9TDI auto 038906012FF 0281001655 362776.ori",
+      "engineFolder": "unknowns",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4104",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "dec61fefd60a752ed5623f8d41ec50820e56de7bcc0459aa6d4b812abde9ecd3",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "35. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "36. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "37. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "38. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "39. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "40. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "41. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    }
+  ]
+}
