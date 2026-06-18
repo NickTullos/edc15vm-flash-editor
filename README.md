@@ -15,7 +15,7 @@ Click the image below to watch the step-by-step tutorial on YouTube:
 
 ## Watch the Video
 
-![Diff report example](build/assets/diffreport.png)
+[![Watch the video tutorial](build/assets/diffreport.png)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
 
 [![Watch the video tutorial](build/assets/menu.png)](https://www.youtube.com/watch?v=DHF3Maqpc1o)
 
