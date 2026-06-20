@@ -180,6 +180,8 @@ publish_target() {
     -f "$FRAMEWORK" \
     -r "$rid" \
     --self-contained true \
+    -p:ALHFlashToolVersion="$VERSION_TAG" \
+    -p:Version="$VERSION_RAW" \
     -p:PublishSingleFile=true \
     -p:IncludeNativeLibrariesForSelfExtract=true \
     -p:PublishTrimmed=false \

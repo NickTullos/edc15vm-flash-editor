@@ -1,5 +1,5 @@
 ﻿{
-  "timestamp": "2026-06-18T14:15:47.5518+00:00",
+  "timestamp": "2026-06-20T16:20:47.77766+00:00",
   "rootPath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump",
   "pressureUnitDisplayName": "gauge PSI",
   "files": [
@@ -180,43 +180,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Missing",
           "isCompatible": false
         }
@@ -228,12 +228,703 @@
         "17. Edit Driver\u0027s Wish Table",
         "18. View Inverse Driver\u0027s Wish Table",
         "19. Edit Inverse Driver\u0027s Wish Table",
-        "35. View Pump Voltage Table",
-        "36. Edit Pump Voltage Table",
-        "37. View Smoke Limiter Table",
-        "38. Edit Smoke Limiter Table",
-        "40. View Low RPM Torque Limiter Table",
-        "41. Edit Low RPM Torque Limiter Table"
+        "36. View Pump Voltage Table",
+        "37. Edit Pump Voltage Table",
+        "38. View Smoke Limiter Table",
+        "39. Edit Smoke Limiter Table",
+        "41. View Low RPM Torque Limiter Table",
+        "42. Edit Low RPM Torque Limiter Table"
+      ]
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AGR/Audi A4 1.9TDI 110HP 038906012AH 0281010200 352255.ori",
+      "sourceRelativePath": "AGR/Audi A4 1.9TDI 110HP 038906012AH 0281010200 352255.ori",
+      "sourceFileName": "Audi A4 1.9TDI 110HP 038906012AH 0281010200 352255.ori",
+      "engineFolder": "AGR",
+      "resolvedVariant": "SG2705",
+      "softwareNumber": "SG2705",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "ReviewOnly",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "b56cbff7f7d1b20103673b5159e12d85f1488abbb6f8474556a52e667e2e524a",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "36. View Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "37. Edit Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "38. View Smoke Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "39. Edit Smoke Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "40. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "41. View Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "42. Edit Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        }
+      ],
+      "incompatibleFeatures": [
+        "6. MAF Off / Switch to MAP (Off-road only)",
+        "16. View Driver\u0027s Wish Table",
+        "17. Edit Driver\u0027s Wish Table",
+        "18. View Inverse Driver\u0027s Wish Table",
+        "19. Edit Inverse Driver\u0027s Wish Table",
+        "26. View SOI Table",
+        "27. Edit SOI Table",
+        "36. View Pump Voltage Table",
+        "37. Edit Pump Voltage Table",
+        "38. View Smoke Limiter Table",
+        "39. Edit Smoke Limiter Table",
+        "41. View Low RPM Torque Limiter Table",
+        "42. Edit Low RPM Torque Limiter Table"
+      ]
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AGR/Seat toledo 1.9TDI AGR 90HP 038906012S 0281010059 359845.ori",
+      "sourceRelativePath": "AGR/Seat toledo 1.9TDI AGR 90HP 038906012S 0281010059 359845.ori",
+      "sourceFileName": "Seat toledo 1.9TDI AGR 90HP 038906012S 0281010059 359845.ori",
+      "engineFolder": "AGR",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG2512",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "ReviewOnly",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "0fdf52cabe3df96d3bf0298b72fa4bed343398324767dd462c0f54c14ed65c6e",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "ReviewOnly",
+          "isCompatible": false
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "36. View Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "37. Edit Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "38. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "39. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "40. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "41. View Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "42. Edit Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        }
+      ],
+      "incompatibleFeatures": [
+        "6. MAF Off / Switch to MAP (Off-road only)",
+        "14. View Boost Target Table (gauge PSI)",
+        "15. Edit Boost Target (gauge PSI)",
+        "20. View N75 Duty Table",
+        "21. Edit N75 Duty Table",
+        "34. View Single Value Boost Limit (gauge PSI)",
+        "36. View Pump Voltage Table",
+        "37. Edit Pump Voltage Table",
+        "41. View Low RPM Torque Limiter Table",
+        "42. Edit Low RPM Torque Limiter Table"
+      ]
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AGR/Skoda octavia 1.9TDI AGR 90HP 038906012F 0281010127 1037350855.ori",
+      "sourceRelativePath": "AGR/Skoda octavia 1.9TDI AGR 90HP 038906012F 0281010127 1037350855.ori",
+      "sourceFileName": "Skoda octavia 1.9TDI AGR 90HP 038906012F 0281010127 1037350855.ori",
+      "engineFolder": "AGR",
+      "resolvedVariant": "SG3313",
+      "softwareNumber": "SG3313",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "ReviewOnly",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "1e4d3edc8a63911b826e0a7015592bb365f8fd0b304d8230015ea8ad42388bad",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "36. View Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "37. Edit Pump Voltage Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "38. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "39. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "40. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "41. View Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "42. Edit Low RPM Torque Limiter Table",
+          "status": "Missing",
+          "isCompatible": false
+        }
+      ],
+      "incompatibleFeatures": [
+        "34. View Single Value Boost Limit (gauge PSI)",
+        "36. View Pump Voltage Table",
+        "37. Edit Pump Voltage Table",
+        "41. View Low RPM Torque Limiter Table",
+        "42. Edit Low RPM Torque Limiter Table"
       ]
     },
     {
@@ -425,43 +1116,275 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        }
+      ],
+      "incompatibleFeatures": []
+    },
+    {
+      "sourcePath": "/Users/nicktullos/Projects/ALH/src/ALHFlash.Tool/bin/Debug/net7.0/flashfiles/VEpump/AGR/VW golf 1.9TDI AGR 90HP 038906012GN 0281011034 366234.ori",
+      "sourceRelativePath": "AGR/VW golf 1.9TDI AGR 90HP 038906012GN 0281011034 366234.ori",
+      "sourceFileName": "VW golf 1.9TDI AGR 90HP 038906012GN 0281011034 366234.ori",
+      "engineFolder": "AGR",
+      "resolvedVariant": "Unknown",
+      "softwareNumber": "SG4308",
+      "validationStatus": "Pass",
+      "compatibilityStatus": "Ready",
+      "validationMessage": null,
+      "sourceSizeBytes": 524288,
+      "sourceSha256": "d7b4f0a6a2163a7b3330e1a42a59ad3e296b9c4152b25dee72f0ccbe80df9d6e",
+      "features": [
+        {
+          "feature": "disableDtc",
+          "label": "4. Disable DTC",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "egrOff",
+          "label": "5. EGR Off (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "mafOff",
+          "label": "6. MAF Off / Switch to MAP (Off-road only)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "repairChecksums",
+          "label": "7. Repair Checksums",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "discoverDtcCodes",
+          "label": "8. Discover DTC Codes",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "findDtcStatus",
+          "label": "9. Find DTC Status",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "investigateClusteredDtcTables",
+          "label": "10. Investigate Clustered DTC Tables",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewFlashModifications",
+          "label": "11. Review Flash Modifications",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "generateMapChartReport",
+          "label": "12. Generate Map Chart Report (HTML)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "reviewBoostMaps",
+          "label": "13. Review Boost Maps",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostTargetTables",
+          "label": "14. View Boost Target Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostTarget",
+          "label": "15. Edit Boost Target (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showDriverWishTables",
+          "label": "16. View Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editDriverWish",
+          "label": "17. Edit Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showInverseDriverWishTables",
+          "label": "18. View Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editInverseDriverWish",
+          "label": "19. Edit Inverse Driver\u0027s Wish Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showN75DutyTables",
+          "label": "20. View N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editN75Duty",
+          "label": "21. Edit N75 Duty Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showBoostLimiterTables",
+          "label": "22. View Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editBoostLimiter",
+          "label": "23. Edit Boost Limiter Table (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showTorqueLimiterTables",
+          "label": "24. View Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editTorqueLimiter",
+          "label": "25. Edit Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiBankTables",
+          "label": "26. View SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiBank",
+          "label": "27. Edit SOI Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSoiSelectorTables",
+          "label": "28. View SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSoiSelector",
+          "label": "29. Edit SOI Selector Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showMapLinearizationTables",
+          "label": "32. View MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editMapLinearizationTables",
+          "label": "33. Edit MAP Linearization Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSingleValueBoostLimitTable",
+          "label": "34. View Single Value Boost Limit (gauge PSI)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showPumpVoltageTables",
+          "label": "36. View Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editPumpVoltage",
+          "label": "37. Edit Pump Voltage Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showSmokeLimiterTables",
+          "label": "38. View Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editSmokeLimiter",
+          "label": "39. Edit Smoke Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "detectActiveCodeblock",
+          "label": "40. Detect Active Codeblock (Advisory)",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "showLowRpmTorqueLimiterTables",
+          "label": "41. View Low RPM Torque Limiter Table",
+          "status": "Ready",
+          "isCompatible": true
+        },
+        {
+          "feature": "editLowRpmTorqueLimiterTables",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -657,43 +1580,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -877,43 +1800,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -1097,43 +2020,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -1329,43 +2252,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -1549,43 +2472,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -1769,43 +2692,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -1989,43 +2912,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -2221,43 +3144,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -2441,43 +3364,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -2673,43 +3596,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -2893,43 +3816,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -3125,43 +4048,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -3357,43 +4280,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -3577,43 +4500,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Missing",
           "isCompatible": false
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -3621,8 +4544,8 @@
       "incompatibleFeatures": [
         "16. View Driver\u0027s Wish Table",
         "17. Edit Driver\u0027s Wish Table",
-        "35. View Pump Voltage Table",
-        "36. Edit Pump Voltage Table"
+        "36. View Pump Voltage Table",
+        "37. Edit Pump Voltage Table"
       ]
     },
     {
@@ -3814,43 +4737,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -4046,43 +4969,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -4278,43 +5201,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -4498,43 +5421,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -4718,43 +5641,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
@@ -4950,43 +5873,43 @@
         },
         {
           "feature": "showPumpVoltageTables",
-          "label": "35. View Pump Voltage Table",
+          "label": "36. View Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editPumpVoltage",
-          "label": "36. Edit Pump Voltage Table",
+          "label": "37. Edit Pump Voltage Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showSmokeLimiterTables",
-          "label": "37. View Smoke Limiter Table",
+          "label": "38. View Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editSmokeLimiter",
-          "label": "38. Edit Smoke Limiter Table",
+          "label": "39. Edit Smoke Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "detectActiveCodeblock",
-          "label": "39. Detect Active Codeblock (Advisory)",
+          "label": "40. Detect Active Codeblock (Advisory)",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "showLowRpmTorqueLimiterTables",
-          "label": "40. View Low RPM Torque Limiter Table",
+          "label": "41. View Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         },
         {
           "feature": "editLowRpmTorqueLimiterTables",
-          "label": "41. Edit Low RPM Torque Limiter Table",
+          "label": "42. Edit Low RPM Torque Limiter Table",
           "status": "Ready",
           "isCompatible": true
         }
