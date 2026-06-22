@@ -29,12 +29,12 @@ Click the image below to watch the step-by-step tutorial on YouTube:
 
 ## Downloads
 
-- Modern M Series Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.3-macos-arm64.zip)
-- Older Legacy Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.3-macos-x64.zip)
-- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.3-linux-x64.tar.gz)
-- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.3-linux-arm64.tar.gz)
-- Most Common Windows [Windows x64 zip](build/dist/ALHFlashTool-0.0.3-windows-x64.zip)
-- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.3-windows-arm64.zip)
+- Modern M Series Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.4-macos-arm64.zip)
+- Older Legacy Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.4-macos-x64.zip)
+- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.4-linux-x64.tar.gz)
+- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.4-linux-arm64.tar.gz)
+- Most Common Windows [Windows x64 zip](build/dist/ALHFlashTool-0.0.4-windows-x64.zip)
+- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.4-windows-arm64.zip)
 
 The tool never edits the original file in place. DTC editing is blocked when
 flash validation fails, and patched binaries are written only after checksum
@@ -199,6 +199,9 @@ This feature does not automatically disable EGR DTCs or assume a universal EGR
 switch byte. If N18 is unplugged and diagnostic suppression is needed, use the
 explicit DTC workflow separately.
 
+The optional EGR DTC suppression step is currently gated by
+`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `false`.
+
 ## MAF Off / Switch To MAP
 
 `MAF Off / Switch to MAP (Off-road only)` scans for configured MAF/MAP
@@ -226,6 +229,9 @@ to MAP. Each ready map defaults to skipped unless the user explicitly types
 This feature does not automatically disable MAF DTCs. If the sensor is
 physically unplugged and codes such as `P0100`-`P0104` appear, use the explicit
 DTC workflow separately.
+
+The optional MAF DTC suppression step is currently gated by
+`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `false`.
 
 ## Reports
 
