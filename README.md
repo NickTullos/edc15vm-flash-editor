@@ -29,12 +29,12 @@ Click the image below to watch the step-by-step tutorial on YouTube:
 
 ## Downloads
 
-- Modern M Series Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.4-macos-arm64.zip)
-- Older Legacy Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.4-macos-x64.zip)
-- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.4-linux-x64.tar.gz)
-- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.4-linux-arm64.tar.gz)
-- Most Common Windows [Windows x64 zip](build/dist/ALHFlashTool-0.0.4-windows-x64.zip)
-- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.4-windows-arm64.zip)
+- Modern M Series Macs [macOS arm64 zip](build/dist/ALHFlashTool-0.0.5-macos-arm64.zip)
+- Older Legacy Macs [macOS x64 zip](build/dist/ALHFlashTool-0.0.5-macos-x64.zip)
+- Most Common Linux [Linux x64 tar.gz](build/dist/ALHFlashTool-0.0.5-linux-x64.tar.gz)
+- ARM Linux [Linux arm64 tar.gz](build/dist/ALHFlashTool-0.0.5-linux-arm64.tar.gz)
+- Most Common Windows [Windows x64 zip](build/dist/ALHFlashTool-0.0.5-windows-x64.zip)
+- ARM Windows [Windows arm64 zip](build/dist/ALHFlashTool-0.0.5-windows-arm64.zip)
 
 The tool never edits the original file in place. DTC editing is blocked when
 flash validation fails, and patched binaries are written only after checksum
@@ -200,9 +200,24 @@ switch byte. If N18 is unplugged and diagnostic suppression is needed, use the
 explicit DTC workflow separately.
 
 The optional EGR DTC suppression step is currently gated by
-`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `false`.
+`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `true`.
+When enabled, the bundled EGR DTC profile only targets `P1441`; broader EGR
+code removal is handled by the separate `Disable DTC` feature.
+
+## ASV Off
+
+`ASV Off` is a shortcut for the shared `Disable DTC` workflow. It preloads
+`P3105` and uses the same scanner/patcher engine as the generic DTC feature,
+but it does not add a map-edit step or a separate suppression gate.
+
+This feature is intended for lawful off-road calibration workflows only and
+targets `P3105` exclusively.
 
 ## MAF Off / Switch To MAP
+
+This feature is disabled in the current release while the bug is being
+investigated. The menu entry remains visible, but the tool will not execute the
+MAF/MAP switch edit.
 
 `MAF Off / Switch to MAP (Off-road only)` scans for configured MAF/MAP
 smoke-limiter source switch contexts and, after per-location confirmation,
@@ -231,7 +246,7 @@ physically unplugged and codes such as `P0100`-`P0104` appear, use the explicit
 DTC workflow separately.
 
 The optional MAF DTC suppression step is currently gated by
-`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `false`.
+`enableOptionalDtcSuppression` in `appconfig.json` and defaults to `true`.
 
 ## Reports
 
@@ -273,6 +288,12 @@ For EGR Off operations the tool writes:
 - `modified/<name>.egr-off.bin`
 - `modified/<name>.egr-off-report.json`
 - `modified/<name>.egr-off-report.html`
+
+For ASV Off operations the tool writes:
+
+- `modified/<name>.asv-off.bin`
+- `modified/<name>.asv-off-report.json`
+- `modified/<name>.asv-off-report.html`
 
 For MAF Off / Switch to MAP operations the tool writes:
 

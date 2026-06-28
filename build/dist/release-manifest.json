@@ -1,48 +1,48 @@
 {
   "app": "ALHFlashTool",
-  "versionTag": "v0.0.4",
-  "version": "0.0.4",
-  "versionSafe": "0.0.4",
-  "commit": "e9beb2befaaad46e9f971a279be4fa0be4b9c8d8",
-  "buildTimeUtc": "2026-06-22T22:54:08.236319Z",
+  "versionTag": "v0.0.5",
+  "version": "0.0.5",
+  "versionSafe": "0.0.5",
+  "commit": "33839457f067859f4215d666f6fd89055345b635",
+  "buildTimeUtc": "2026-06-28T18:19:33.528536Z",
   "configuration": "Release",
   "framework": "net7.0",
   "artifacts": [
     {
       "label": "macos-arm64",
       "rid": "osx-arm64",
-      "archive": "ALHFlashTool-0.0.4-macos-arm64.zip",
-      "sha256": "6b24e8e1612fdea231c85819b55a987c450cc062d72b339ffdec4c4c479555a5"
+      "archive": "ALHFlashTool-0.0.5-macos-arm64.zip",
+      "sha256": "3f2cd16d5f8efb27dcc177a9df774ce6da087ef00c3dad1adc5060baa0dcf3e5"
     },
     {
       "label": "macos-x64",
       "rid": "osx-x64",
-      "archive": "ALHFlashTool-0.0.4-macos-x64.zip",
-      "sha256": "838cdecd833443325e385c8fa8f3dafb690b3ad58695dbcae9c5342ab5f41b24"
+      "archive": "ALHFlashTool-0.0.5-macos-x64.zip",
+      "sha256": "9f55b50e7015a7b9fe34b1e44e300f1ae1006b29e5378cc5c04514e1aa755d7e"
     },
     {
       "label": "linux-x64",
       "rid": "linux-x64",
-      "archive": "ALHFlashTool-0.0.4-linux-x64.tar.gz",
-      "sha256": "3249533c332be6140aa4a0a138077c42bf2684e4ab7771faf8c0fe4dd362fc61"
+      "archive": "ALHFlashTool-0.0.5-linux-x64.tar.gz",
+      "sha256": "a0ce98662c54b00bf3a62281fe7959170c94914b17f715ec4565f5c976593b87"
     },
     {
       "label": "linux-arm64",
       "rid": "linux-arm64",
-      "archive": "ALHFlashTool-0.0.4-linux-arm64.tar.gz",
-      "sha256": "fb15fbf845a19578ef33851e6a8dd6c94ac349ef53210aad2d01256f5e195d6a"
+      "archive": "ALHFlashTool-0.0.5-linux-arm64.tar.gz",
+      "sha256": "9aea92864bdb2bcde216344e4d1d86e4f6240b1aeb8cf2f9ff2c90b00eabd9b7"
     },
     {
       "label": "windows-x64",
       "rid": "win-x64",
-      "archive": "ALHFlashTool-0.0.4-windows-x64.zip",
-      "sha256": "c9baaa46719745b4b1cddec25dccab7cb59159b4f1c7c3bcc4a70c2b5291501c"
+      "archive": "ALHFlashTool-0.0.5-windows-x64.zip",
+      "sha256": "302f272f5731453afdf928631ebebb78e91855423b1b59289287748e0e5450df"
     },
     {
       "label": "windows-arm64",
       "rid": "win-arm64",
-      "archive": "ALHFlashTool-0.0.4-windows-arm64.zip",
-      "sha256": "1dd2ce32fbb3afc8ea365cff44100a0c3f4e142e39b8b325983ea2a155a77608"
+      "archive": "ALHFlashTool-0.0.5-windows-arm64.zip",
+      "sha256": "1c6bf37cf0d6461276bebe7c5e3edb311d403c02387db9f7db0a4edfa99a9461"
     }
   ]
 }
